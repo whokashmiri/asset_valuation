@@ -1,0 +1,55 @@
+{
+  "name": "Inspection App",
+  "short_name": "Inspection",
+  "description": "Multilingual Inspection PWA (English & Arabic)",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait",
+  "scope": "/",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Inspection",
+      "short_name": "Start",
+      "url": "/?lang=en",
+      "description": "Start new inspection in English",
+      "icons": [{ "src": "pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "ابدأ الفحص",
+      "short_name": "ابدأ",
+      "url": "/?lang=ar",
+      "description": "ابدأ فحص جديد باللغة العربية",
+      "icons": [{ "src": "pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "locales": {
+    "en": {
+      "name": "Inspection App",
+      "short_name": "Inspection",
+      "description": "PWA for inspections (English)"
+    },
+    "ar": {
+      "name": "تطبيق الفحص",
+      "short_name": "فحص",
+      "description": "تطبيق ويب للفحص (عربي)",
+      "dir": "rtl",
+      "lang": "ar"
+    }
+  }
+}
